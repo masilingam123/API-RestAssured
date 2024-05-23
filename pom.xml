@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>nedbankweb</artifactId>
+    <artifactId>nedbankAPI</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,7 +13,6 @@
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
@@ -50,13 +49,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.jsexecutor/jsexecutor-core -->
-        <dependency>
-            <groupId>com.jsexecutor</groupId>
-            <artifactId>jsexecutor-core</artifactId>
-            <version>1.0.5</version>
-        </dependency>
-
 
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
@@ -66,12 +58,8 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-chrome-driver</artifactId>
-            <version>4.19.1</version>
-        </dependency>
+
     </dependencies>
+
 
 </project>
